@@ -3,7 +3,7 @@
 import { signIn } from "next-auth/react";
 import React, { FC, useState } from "react";
 import { Button } from "./ui/Button";
-import { toast } from "@/ui/Toast";
+import { toast } from "@/components/ui/toast";
 
 export interface SignInButtonProps {}
 const SignInButton: FC<SignInButtonProps> = () => {
