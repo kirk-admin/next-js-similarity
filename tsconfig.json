@@ -41,6 +41,9 @@
       "@/ui/*": [
         "./src/components/ui/*"
       ],
+      "@/helpers/*": [
+        "./src/helpers/*"
+      ],
     }
   },
   "include": [
